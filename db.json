@@ -1,0 +1,48 @@
+{
+  "navigation": [
+    {
+      "id": 1,
+      "name": "Home",
+      "url": "/index.html"
+    },
+    {
+      "id": 2,
+      "name": "Add blog",
+      "url": "/add-post.html"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Man must explore, and this is exploration at its greatest",
+      "author": "Admin",
+      "content": "Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.\n\nScience cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.\n\nWhat was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.\n\nA Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.\n\nFor those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.",
+      "image": "https://startbootstrap.github.io/startbootstrap-clean-blog/img/post-bg.jpg",
+      "description": "Problems look mighty small from 150 miles up",
+      "createDate": "Sat Jan 23 2021",
+      "id": 6
+    },
+    {
+      "title": "Science has not yet mastered prophecy",
+      "author": "Admin",
+      "content": "Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.\n\nAs I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.",
+      "image": "https://startbootstrap.github.io/startbootstrap-clean-blog/img/post-bg.jpg",
+      "description": "We predict too much for the next year and yet far too little for the next ten.",
+      "createDate": "Sat Jan 23 2021",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fullName": "John doe  1",
+      "age": 30
+    }
+  ]
+}
