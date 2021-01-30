@@ -1,4 +1,7 @@
 import fetch from "./http.js";
+
+
+
 const id = 6;
 const header = document.querySelector(".post-heading");
 const masthead = document.querySelector(".masthead");
@@ -13,4 +16,6 @@ fetch("GET", `/posts/${id}`).then((res) => {
   const meta = header.children[2];
   meta.children[0].textContent = res.author;
   meta.children[0].nextSibling.textContent = ` on ${res.createDate}`;
+
+
 });

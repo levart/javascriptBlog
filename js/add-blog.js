@@ -1,5 +1,9 @@
 import fetch from "./http.js";
+import isAuthorithed from "./auth.js";
 
+if(!isAuthorithed()){
+    window.location.pathname = '/';
+}
 const addBlog = document.querySelector('#add-blog');
 
 addBlog.addEventListener("submit", addNewBlog)
@@ -27,5 +31,7 @@ function addNewBlog(e){
     fetch("POST", "/posts", post)
     .then( res => {
         console.log(res);
-    })
+        return
+    });
+    return;
 }

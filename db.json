@@ -3,12 +3,41 @@
     {
       "id": 1,
       "name": "Home",
+      "idName": "home",
+      "guard": false,
+      "auth": "show",
       "url": "/index.html"
     },
     {
       "id": 2,
       "name": "Add blog",
+      "idName": "add-blog",
+      "guard": true,
+      "auth": "show",
       "url": "/add-post.html"
+    },
+    {
+      "id": 3,
+      "name": "Login",
+      "idName": "login",
+      "guard": false,
+      "auth": "hide",
+      "url": "/login.html"
+    },
+    {
+      "id": 4,
+      "name": "Registration",
+      "idName": "registration",
+      "guard": false,
+      "auth": "hide",
+      "url": "/registration.html"
+    },
+    {
+      "id": 5,
+      "name": "Logout",
+      "idName": "logout",
+      "guard": true,
+      "auth": "show"
     }
   ],
   "posts": [
@@ -29,6 +58,42 @@
       "description": "We predict too much for the next year and yet far too little for the next ten.",
       "createDate": "Sat Jan 23 2021",
       "id": 7
+    },
+    {
+      "title": "სატესტო ორგანიზაცია",
+      "author": "fgsdf",
+      "content": "yertyert",
+      "image": "https://startbootstrap.github.io/startbootstrap-clean-blog/img/post-bg.jpg",
+      "description": "rtyert",
+      "createDate": "Sat Jan 30 2021",
+      "id": 8
+    },
+    {
+      "title": "erty",
+      "author": "erty",
+      "content": "ertyert",
+      "image": "ertyer",
+      "description": "tyert",
+      "createDate": "Sat Jan 30 2021",
+      "id": 9
+    },
+    {
+      "title": "სატესტო ორგანიზაცია",
+      "author": "fgsdf",
+      "content": "tyurtyu",
+      "image": "https://startbootstrap.github.io/startbootstrap-clean-blog/img/post-bg.jpg",
+      "description": "rtyur",
+      "createDate": "Sat Jan 30 2021",
+      "id": 10
+    },
+    {
+      "title": "tryu",
+      "author": "tyurt",
+      "content": "rtuyrtuy",
+      "image": "yurtyu",
+      "description": "rtuy",
+      "createDate": "Sat Jan 30 2021",
+      "id": 11
     }
   ],
   "comments": [
@@ -40,9 +105,16 @@
   ],
   "users": [
     {
-      "id": 1,
-      "fullName": "John doe  1",
-      "age": 30
+      "fullName": "John Doe",
+      "username": "john",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "fullName": "sdfgsdf",
+      "username": "levart",
+      "password": "123456",
+      "id": 2
     }
   ]
 }
